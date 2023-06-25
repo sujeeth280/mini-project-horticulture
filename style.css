@@ -1,0 +1,120 @@
+body{
+  margin: 0%;
+}
+
+/* header css */
+#header{
+  color: white;
+  background-color: rgb(0, 0, 255);
+  height: 30%;
+  width: 100%;
+}
+#name{
+  font-size: 20px;
+  font-family:monotype corsiva;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 10px;
+}
+#title{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: fit-content;
+  padding: 10px;
+  border: 5px solid rgb(240, 255, 240);
+  border-radius: 50px;
+}
+#head{
+  font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  font-size: 30px;
+  padding: 10px ;
+}
+#header-images{
+  height: max-content;
+  width: max-content;
+  padding: 10px;
+}
+.header-image{
+  width: 300px;
+  height: 220px;
+  padding: 25px;
+}
+
+/* content css */
+#content{
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+}
+.side-headings{
+  color: rgb(0, 0, 255);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 0%;
+}
+ul{
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+hr {
+  border: none;
+  border-top: 2px solid #ddbd8f;
+  box-shadow: 0 0 20px rgb(47, 4, 111);
+  margin: 10px 0;
+  height: 2px;
+}
+.text{
+  padding: 4px;
+  font-size: 20px;
+}
+.cotent-images{
+  width: 300px;
+  height: 220px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+table{
+  width: 85%;
+}
+table,td,th{
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+}
+#sno{
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+#week-location{
+  width: 100px;
+  text-align: center;
+}
+td{
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th#main{
+  font-size: x-large;
+}
+th{
+  font-size: 23px;
+}
+
+/* footer css */
+footer{
+  padding: 50px;
+  background-color: black;
+  color: white;
+  font-size: larger;
+}
+p{
+  margin: 0%;
+  padding: 7.5px;
+}
+#links img{
+  padding: 10px;
+  text-decoration: none;
+  width: 40;
+  height: 30;
+}
